@@ -15,6 +15,10 @@ body {
     background-color: #1F2937;
 }
 
+.hero-section{
+    min-height: 540px;
+}
+
 .header {
     padding: 16px 32px;
 }
@@ -68,11 +72,11 @@ body {
     font-size: 18px;
 }
 
+
 .hero-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
     min-height: 240px;
     background-color: #6d747d;
 }
@@ -80,7 +84,6 @@ body {
 .hero-image p {
     color: #E5E7EB;
 }
-
 
 .sign-up-button {
     font-size: 18px;
@@ -100,7 +103,6 @@ body {
 }
 
 .navigation-list a {
-    list-style-type: none;
     text-decoration: none;
     color: inherit;
 }
