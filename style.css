@@ -219,3 +219,18 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
+
+.site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 32px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 18px;
+}
