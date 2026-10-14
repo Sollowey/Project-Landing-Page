@@ -180,3 +180,42 @@ body {
     font-weight: 700;
     text-align: right;
 }
+
+.call-to-action-section {
+    padding: 96px 32px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 48px 96px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.call-to-action-content h2 {
+    margin: 0;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.call-to-action-content p {
+    margin: 4px 0 0;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cta-button {
+    flex: 0 0 auto;
+    padding: 6px 28px;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #f9faf8;
+    font: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
